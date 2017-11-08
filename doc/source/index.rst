@@ -106,6 +106,7 @@ DataSpecification_individual_docs_
 .. _DataSpecification_github: https://github.com/SpiNNakerManchester/DataSpecification
 .. _DataSpecification_individual_docs: http://dataspecification.readthedocs.io
 
+
 spalloc
 -------
 Spalloc is a Python library and set of command-line programs for requesting SpiNNaker machines from a spalloc server.
@@ -118,6 +119,7 @@ spalloc_github_
 
 .. _spalloc_github: https://github.com/SpiNNakerManchester/spalloc
 .. _spalloc_readthedocs: http://spalloc.readthedocs.io
+
 
 SpiNNFrontEndCommon
 -------------------
@@ -169,38 +171,21 @@ sPyNNaker_individual_docs_
 .. _sPyNNaker_individual_docs: http://spynnaker.readthedocs.io
 
 
-sPyNNakerExternalDevicesPlugin
-------------------------------
+sPyNNaker7
+---------
+This package provides a PyNN implementation for SpiNNaker.
 
 .. toctree::
    :maxdepth: 3
 
-   spynnaker_external_devices_plugin_index
+   spynnaker7_index
 
-sPyNNakerExternalDevicesPlugin_github_
+sPyNNaker7_github_
 
-sPyNNakerExternalDevicesPlugin_individual_docs_
+sPyNNaker7_individual_docs_
 
-.. _sPyNNakerExternalDevicesPlugin_github: https://github.com/SpiNNakerManchester/sPyNNakerExternalDevicesPlugin
-.. _sPyNNakerExternalDevicesPlugin_individual_docs: http://spynnakerexternaldevicesplugin.readthedocs.io
-
-
-sPyNNakerExtraModelsPlugin
---------------------------
-
-This package provides implementations of other neural models which are currently not support by the PyNN language.
-
-.. toctree::
-   :maxdepth: 3
-
-   spynnaker_extra_pynn_models_index
-
-sPyNNakerExtraModelsPlugin_github_
-
-sPyNNakerExtraModelsPlugin_individual_docs_
-
-.. _sPyNNakerExtraModelsPlugin_github: https://github.com/SpiNNakerManchester/sPyNNakerExtraModelsPlugin
-.. _sPyNNakerExtraModelsPlugin_individual_docs: http://spynnakerextramodelsplugin.readthedocs.io
+.. _sPyNNaker7_github: https://github.com/SpiNNakerManchester/sPyNNaker7
+.. _sPyNNaker7_individual_docs: http://spynnaker7.readthedocs.io
 
 spalloc_server
 --------------
@@ -215,6 +200,7 @@ spalloc_server_github_
 
 .. _spalloc_server_github: https://github.com/SpiNNakerManchester/spalloc_server
 .. _spalloc_server_readthedocs: http://spalloc-server.readthedocs.io
+
 
 Indices and tables
 ------------------
