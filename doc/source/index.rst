@@ -1,10 +1,13 @@
 SpiNNaker Manchester (PyNN 7)
 =============================
-These pages document the main Manchester python code for the PyNN 7 branch of the SpiNNaker_ Project.
+These pages document the main Manchester python code for the older PyNN 0.7 branch of the SpiNNaker_ Project which can be found on github_
+
+Alternative ways to run SpiNNaker_ are using the SpiNNakerGraphFrontEnd_, or running it with more recent PyNN_ .
 
 .. _SpiNNaker: http://apt.cs.manchester.ac.uk/projects/SpiNNaker/
-
-Note: These pages are currently under development
+.. _github: https://github.com/SpiNNakerManchester
+.. _SpiNNakerGraphFrontEnd: http://spinnaker-graphfrontend-combined.readthedocs.io
+.. _PyNN: http://spinnaker8manchester.readthedocs.io/
 
 SpiNNUtils
 ----------
@@ -154,7 +157,7 @@ SpiNNakerGraphFrontEnd_individual_docs_
 
 sPyNNaker
 ---------
-This package provides a PyNN implementation for SpiNNaker.
+This package provides the shared code for PyNN implementation for SpiNNaker.
 
 .. toctree::
    :maxdepth: 3
@@ -169,38 +172,21 @@ sPyNNaker_individual_docs_
 .. _sPyNNaker_individual_docs: http://spynnaker.readthedocs.io
 
 
-sPyNNakerExternalDevicesPlugin
-------------------------------
+sPyNNaker7
+---------
+This package provides a PyNN implementation for SpiNNaker.
 
 .. toctree::
    :maxdepth: 3
 
-   spynnaker_external_devices_plugin_index
+   spynnaker_index
 
-sPyNNakerExternalDevicesPlugin_github_
+sPyNNaker7_github_
 
-sPyNNakerExternalDevicesPlugin_individual_docs_
+sPyNNaker7_individual_docs_
 
-.. _sPyNNakerExternalDevicesPlugin_github: https://github.com/SpiNNakerManchester/sPyNNakerExternalDevicesPlugin
-.. _sPyNNakerExternalDevicesPlugin_individual_docs: http://spynnakerexternaldevicesplugin.readthedocs.io
-
-
-sPyNNakerExtraModelsPlugin
---------------------------
-
-This package provides implementations of other neural models which are currently not support by the PyNN language.
-
-.. toctree::
-   :maxdepth: 3
-
-   spynnaker_extra_pynn_models_index
-
-sPyNNakerExtraModelsPlugin_github_
-
-sPyNNakerExtraModelsPlugin_individual_docs_
-
-.. _sPyNNakerExtraModelsPlugin_github: https://github.com/SpiNNakerManchester/sPyNNakerExtraModelsPlugin
-.. _sPyNNakerExtraModelsPlugin_individual_docs: http://spynnakerextramodelsplugin.readthedocs.io
+.. _sPyNNaker7_github: https://github.com/SpiNNakerManchester/sPyNNaker7
+.. _sPyNNaker7_individual_docs: http://spynnaker7.readthedocs.io
 
 spalloc_server
 --------------
