@@ -222,8 +222,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'SpiNNaker7Manchester.tex', u'SpiNNaker 7 Manchester Documentation',
-   u'', 'manual'),
+  ('index', 'SpiNNaker7Manchester.tex',
+   u'SpiNNaker 7 Manchester Documentation', u'', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
