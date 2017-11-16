@@ -9,7 +9,7 @@ import spinn_utilities.package_loader as package_loader
 class ImportAllModule(unittest.TestCase):
 
     def import_module(self, module):
-        if os.environ.get('CONTINUOUS_INTEGRATION', None) == 'True':
+        if os.environ.get('CONTINUOUS_INTEGRATION', 'false').lower() == 'true':
             package_loader.load_module(module,
                                        remove_pyc_files=False)
         else:
